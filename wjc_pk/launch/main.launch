@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="wjc_pk" name="wjc_main" type="main" output="screen">
+    <param name="custom_bag_path" type="string" value="crc_short.bag" />
+    <param name="parking_x" type="double" value="100.0" />
+  </node>
+</launch>
